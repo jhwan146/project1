@@ -1,0 +1,18 @@
+
+
+<form method="post">
+    {% csrf_token %}
+
+    <table border="1">
+        {{ form.as_table }}
+    </table>
+
+    <input type="submit">
+</form>
+
+<!--<form method="post">-->
+ <!--{%csrf_token%}-->
+
+ <!--{{form.as_p}}-->
+ <!--<button type="submit">Save</button>-->
+<!--</form>-->
